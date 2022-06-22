@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html,body{
+	height:100%;
+}
+
+main{
+	min-height:100%;
+}
+
+img {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.bg-christmas{
+	background:url(../img/bg-christmas.jpeg);
+	background-size: cover;
+	background-repeat: none-repeat;
+	object-fit: cover;
+}

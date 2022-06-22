@@ -1,0 +1,18 @@
+[
+    {
+        "fullname": "cherry123",
+        "department": "admin",
+        "username": "cherry123",
+        "image": "\/assets\/img\/00.jpg",
+        "password": "$2y$10$fuu6jXAkVt6aqBdqDJot5OV.4pZVn2aQ6vfVhiudszVq6yjVYzK1O",
+        "isAdmin": true
+    },
+    {
+        "fullname": "yyyyyyyyy",
+        "department": "accounting",
+        "username": "yyyyyyyy",
+        "image": "\/assets\/img\/01.jpg",
+        "password": "$2y$10$wuJBgIAdeGTJx4aujzXQIu\/4Axni1l8oOgvakWRK9TQ6M7ro48B1O",
+        "isAdmin": false
+    }
+]
