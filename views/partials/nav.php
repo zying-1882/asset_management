@@ -9,9 +9,11 @@
 
 			<?php if(!isset($_SESSION['user_details'])): ?>
 			<a href="/views/forms/login.php" class="nav-link">Login</a>
+			<a href="/views/forms/register.php" class="nav-link">Register</a>
 			<?php endif; ?>
 
 			<?php if(isset($_SESSION['user_details']) && $_SESSION['user_details']->isAdmin): ?>
+			<a href="/views/manage_requests.php" class="nav-link">Manage Requests</a>
 			<a href="/views/forms/register.php" class="nav-link">Register</a>
 			<a href="/views/view_user.php" class="nav-link">View User</a>
 			<?php endif; ?>
