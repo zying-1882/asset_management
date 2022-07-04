@@ -49,7 +49,7 @@ function get_content(){
 	</div>
 <?php
 }
-	require_once "../partials/layout.php";
+require_once "../partials/layout.php";
 
  ?>
 
