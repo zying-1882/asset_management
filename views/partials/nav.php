@@ -17,7 +17,7 @@
 			<a href="/views/view_user.php" class="nav-link">View User</a>
 			<?php endif; ?>
 
-			<?php if(!isset($_SESSION['user_details'])): ?>
+			<?php if(isset($_SESSION['user_details'])): ?>
 			<a href="/views/request_cart.php" class="nav-link">My requests</a>
 			<?php endif; ?>
 
