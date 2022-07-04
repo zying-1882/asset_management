@@ -14,16 +14,15 @@
 
 			<?php if(isset($_SESSION['user_details']) && $_SESSION['user_details']->isAdmin): ?>
 			<a href="/views/manage_requests.php" class="nav-link">Manage Requests</a>
-			<a href="/views/forms/register.php" class="nav-link">Register</a>
 			<a href="/views/view_user.php" class="nav-link">View User</a>
 			<?php endif; ?>
 
-			<?php if(isset($_SESSION['user_details'])): ?>
+			<?php if(!isset($_SESSION['user_details'])): ?>
 			<a href="/views/request_cart.php" class="nav-link">My requests</a>
-			<a href="/views/profile_user.php?id=<?php echo $_SESSION['user_details']->username ?>" class="nav-link">Profile</a>
 			<?php endif; ?>
 
 			<?php if(isset($_SESSION['user_details'])): ?>
+			<a href="/views/profile_user.php?id=<?php echo $_SESSION['user_details']->username ?>" class="nav-link">Profile</a>
 			<a href="/controllers/process_logout.php" class="nav-link">Logout</a>
 			<?php endif; ?>
 		</div>

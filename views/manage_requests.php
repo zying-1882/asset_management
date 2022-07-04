@@ -38,7 +38,7 @@
 		      <td><?php echo $request->date_created ?></td>
 		      <td><?php echo $request->isPending ?></td>
 		      <td>
-		      	<form method="POST" action="../controllers/accept_decline_request.php?id=<?php echo $i ?>">
+		      	<form method="POST" action="../controllers/cancel_request.php?id=<?php echo $i ?>">
 		      		<input type="submit" name="accept" value="Accept" class="btn btn-success">
 		      		<input type="submit" name="decline" value="Decline" class="btn btn-danger">
 		      	</form>
@@ -71,7 +71,7 @@
 		      <td><?php echo $return->date_created ?></td>
 		      <td><?php echo $return->isPending ?></td>
 		      <td>
-		      	<form method="POST" action="../controllers/accept_decline_return.php?id=<?php echo $i ?>">
+		      	<form method="POST" action="../controllers/cancel_request.php?id=<?php echo $i ?>">
 		      		<input type="submit" name="accept" value="Accept" class="btn btn-success">
 		      		<input type="submit" name="decline" value="Decline" class="btn btn-danger">
 		      	</form>
