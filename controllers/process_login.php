@@ -17,6 +17,6 @@ foreach((array)$users as $indiv_user) {
 }
 echo "No user found / Wrong credentials";
 echo "<br>";
-echo "<a href='/views/forms/login.php'>Go to login</a>";
+echo "<a href='/views/forms/register.php'>Go to register</a>";
 
  ?>
